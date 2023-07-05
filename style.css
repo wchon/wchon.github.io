@@ -58,7 +58,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 100px 200px 150px 200px;
-
+    margin-bottom: 200px;
     
 }
 
@@ -66,6 +66,7 @@ header {
     width: 400px;
     height: 400px;
     /* margin-bottom: 40px; */
+    margin-right: 100px;
 }
 
 .main-content {
