@@ -27,6 +27,10 @@
           <div class="content">
             <h2>Hi, I'm <span>Allen Hon</span></h2>
             <h4>Web Developer</h4>
+            <p>
+              Experienced developer in web development from Frontend to Backend,
+              producing quality work.
+            </p>
           </div>
           <div class="content-btn-gp">
             <a href="https://github.com/wchon">My Projects</a>
@@ -35,7 +39,7 @@
         <img class="home-img" src="profile_pic.jpeg" />
       </section>
       <section id="about" class="about">
-        <h4>About</h4>
+        <h2>About</h2>
         <p>
           I'm Allen Hon, a Full Stack developer @Hong Kong University of Science
           and Tech, with never-stopping love for learning new tech. I am
@@ -67,51 +71,140 @@
           games like CS:GO, AOE2, listening to musics on Spotify, or just
           hanging out on Discord with my friends.<br />
         </p>
-
-        <div class="about-timeline">
-          <div class="about-container left-container">
-            <div class="about-text-box">
-              <h4>Mach Innovation</h4>
-              <small><strong>Software Engineer</strong> 2022 - Current</small>
-              <p>
-                <i>Vue.js | Vite | Tailwind | PostgreSQL | Git | AWS</i>
-                •Refactored and unified error handling and asynchronous fetching
-                in API calls. <br />
-                •Designed an efficient and clear web-routing responds to client
-                requests.<br />
-                •Set up and maintained AWS web serving infrastructure and HTTPS
-                reverse proxy.
-              </p>
+        <section class="qualification-work">
+          <div class="qualification-work-tab">
+            <div
+              class="qualification-work-tab-btn button--flex"
+              data-target="#education"
+            >
+              Education
+            </div>
+            <div
+              class="qualification-work-tab-btn button--flex"
+              data-target="#work"
+            >
+              Work
             </div>
           </div>
-          <div class="about-container right-container">
-            <div class="about-text-box">
-              <h4>Lively Impact</h4>
-              <small><strong>Software Engineer</strong> 2022 - Aug 2022</small>
-              <p>
-                <i>Java | Angular | Bootstrap | Subversion | MySQL</i>
-                •Designed and implemented full-stack web application from
-                clients to admins sides.<br />
-                •Analyzed information to determine and redesign of a new API;
-                testing API’s endpoints, methods, and integrations.<br />
-                •Developed 7 new user-facing features.
-              </p>
-            </div>
-          </div>
-          <div class="about-container left-container">
-            <div class="about-text-box">
-              <h4>Spotfinance</h4>
-              <small
-                ><strong>Frontend Engineer</strong> Jun 2021 - Aug 2021</small
+          <div class="qualification-section">
+            <div class="qualification-content">
+              <div
+                class="about-timeline about-timeline-none"
+                data-content
+                id="education"
               >
+                <div class="about-container left-container">
+                  <div class="about-text-box">
+                    <h4>Hong Kong University of Science and Technology</h4>
+                    <small
+                      ><strong>Electronic Engineering</strong> 2020 -
+                      2023</small
+                    >
+                    <p></p>
+                  </div>
+                </div>
+                <div class="about-container right-container">
+                  <div class="about-text-box">
+                    <h4>Hong Kong Community College</h4>
+                    <small><strong>Engineering</strong> 2018 - 2020</small>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="qualification-content qualification-active">
+              <div
+                class="about-timeline about-active about-timeline-none"
+                data-content
+                id="work"
+              >
+                <div class="about-container left-container">
+                  <div class="about-text-box">
+                    <h4>Mach Innovation</h4>
+                    <small
+                      ><strong>Software Engineer</strong> 2022 - Current</small
+                    >
+                    <p>
+                      <i>Vue.js | Vite | Tailwind | PostgreSQL | Git | AWS</i>
+                      •Refactored and unified error handling and asynchronous
+                      fetching in API calls. <br />
+                      •Designed an efficient and clear web-routing responds to
+                      client requests.<br />
+                      •Set up and maintained AWS web serving infrastructure and
+                      HTTPS reverse proxy.
+                    </p>
+                  </div>
+                </div>
+                <div class="about-container right-container">
+                  <div class="about-text-box">
+                    <h4>Lively Impact</h4>
+                    <small
+                      ><strong>Software Engineer</strong> 2022 - Aug 2022</small
+                    >
+                    <p>
+                      <i>Java | Angular | Bootstrap | Subversion | MySQL</i>
+                      •Designed and implemented full-stack web application from
+                      clients to admins sides.<br />
+                      •Analyzed information to determine and redesign of a new
+                      API; testing API’s endpoints, methods, and
+                      integrations.<br />
+                      •Developed 7 new user-facing features.
+                    </p>
+                  </div>
+                </div>
+                <div class="about-container left-container">
+                  <div class="about-text-box">
+                    <h4>Spotfinance</h4>
+                    <small
+                      ><strong>Frontend Engineer</strong> Jun 2021 - Aug
+                      2021</small
+                    >
+                    <p>
+                      <i>HTML | Javascript | CSS | Git | Wordpress <br /></i>
+                      •Designed and implemented visually appealing landing
+                      websites for IT service.
+                      <br />
+                      •Partnered with backend developers and created dynamic web
+                      pages, resulting in website leads increase 15%.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="footer">
+        <div class="footer-container">
+          <div class="footer-container-row">
+            <div class="footer-container-left">
+              <h1 class="footer-subtitle">Contact</h1>
               <p>
-                <i>HTML | Javascript | CSS | Git | Wordpress <br /></i>
-                •Designed and implemented visually appealing landing websites
-                for IT service.
-                <br />
-                •Partnered with backend developers and created dynamic web
-                pages, resulting in website leads increase 15%.
+                <i class="fa-light fa-mailbox" style="color: #531e94"></i
+                >wangchau31@gmail.com
               </p>
+            </div>
+            <div class="footer-container-right">
+              <form action="">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Your name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Your email"
+                  required
+                />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Your message"
+                ></textarea>
+                <button type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
@@ -128,3 +221,4 @@
     </div>
   </body>
 </html>
+<script src="main.js"></script>
