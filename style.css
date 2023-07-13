@@ -232,9 +232,16 @@ header {
     font-size: 20px;
 }
 
-.about-text-box h4 {
-    color: #7d2ae8;
+.about-text-box a {
+    font-size: 1.5rem;
+        text-decoration: none;
+        color: #7d2ae8;
+        font-weight: bold;
 }
+
+/* .about-text-box h4 {
+    color: #7d2ae8;
+} */
 
 .about-text-box p {
     font-size: 15px;
@@ -341,7 +348,7 @@ form input, form textarea {
 .footer-btn:hover {
     background: transparent;
     color: #7d2ae8;
-    cursor: pointer;;
+    cursor: pointer;
 }
 
 .copyright {
@@ -405,6 +412,12 @@ form input, form textarea {
         font-size: 13px;
     }
 
+    .about-text-box a {
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #7d2ae8;
+    }
+
     .about-text-box small {
         margin-bottom: 10px;
     }
@@ -413,9 +426,9 @@ form input, form textarea {
         left: 0;
     }
 
-    .about-text-box h4 {
+    /* .about-text-box h4 {
         font-size: 1.2rem;
-    }
+    } */
 
     .about-text-box p {
         font-size: 10px;
