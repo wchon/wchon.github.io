@@ -234,9 +234,9 @@ header {
 
 .about-text-box a {
     font-size: 1.5rem;
-        text-decoration: none;
-        color: #7d2ae8;
-        font-weight: bold;
+    text-decoration: none;
+    color: #7d2ae8;
+    font-weight: bold;
 }
 
 /* .about-text-box h4 {
@@ -293,7 +293,7 @@ header {
 
 .footer-container-row {
     display: flex;
-    column-gap: 4rem;
+    justify-content: space-between;
     /* flex-direction: column; */
 }
 
@@ -414,8 +414,7 @@ form input, form textarea {
 
     .about-text-box a {
         font-size: 1.2rem;
-        text-decoration: none;
-        color: #7d2ae8;
+        
     }
 
     .about-text-box small {
