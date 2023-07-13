@@ -274,12 +274,83 @@ header {
     flex-basis: 35%;
 }
 
+.footer-container {
+    padding: 0 200px;
+}
+
+.footer-container h2{
+    font-size: 3rem;
+    color: #7d2ae8;
+}
+
+
+.footer-container-row {
+    display: flex;
+    column-gap: 4rem;
+    /* flex-direction: column; */
+}
+
+/* .footer-container-left h2{
+    font-size: 3rem;
+    color: #7d2ae8;
+} */
+
 .footer-right {
     flex-basis: 60%;
 }
 
 .footer-container-left p {
     margin-top: 30px;
+    font-size: 20px;
+}
+
+.footer-container-left p i {
+    margin-right: 15px;
+   
+    color: #7d2ae8;
+}
+
+.footer-container-right form {
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    color: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+.footer-btn {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.footer-btn:hover {
+    background: transparent;
+    color: #7d2ae8;
+    cursor: pointer;;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #c2c1c1;
+    font-weight: 300;
+    margin-top: 20px;
 }
 
 .social-icons {
